@@ -269,7 +269,7 @@ def main(argv: list[str] | None = None) -> int:
     app = QApplication(args)
     app.setApplicationName("南七日程")
     app.setApplicationDisplayName("南七日程")
-    app.setOrganizationName("OrangeCatzhang")
+    app.setOrganizationName("XJ.Jiang")
     app.setApplicationVersion(__version__)
     # 关键：关掉主窗口只是隐藏，托盘与提醒要继续工作（对应 Electron 的
     # `window-all-closed` 不退出）。

@@ -162,4 +162,4 @@ def test_source_contains_no_retired_update_network_calls():
     assert not (root/"nanqi"/"update_checker.py").exists()
     assert not (root/"assets"/"web"/"updates.js").exists()
     for source in (root/"nanqi").rglob("*.py"):
-        assert "raw.githubusercontent.com/OrangeCatzhang" not in source.read_text(encoding="utf-8")
+        assert "raw.githubusercontent.com/" not in source.read_text(encoding="utf-8")

@@ -169,7 +169,7 @@ def write_version_file(target: Path) -> str:
   kids=[
     StringFileInfo([
       StringTable('080404B0', [
-        StringStruct('CompanyName', 'OrangeCatzhang'),
+        StringStruct('CompanyName', 'XJ.Jiang'),
         StringStruct('FileDescription', '南七日程 · Windows 桌面日历与待办清单'),
         StringStruct('FileVersion', '{__version__}'),
         StringStruct('InternalName', 'nanqi_schedule'),
