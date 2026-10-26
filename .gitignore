@@ -1,0 +1,16 @@
+# 打包与运行产生的中间文件
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.spec
+.venv/
+.cache/
+.work_v2/
+release_backups/
+.pytest_cache/
+
+# 本地测试与诊断产物
+.proto/
+*.log
+doctor-report.txt

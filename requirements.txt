@@ -1,0 +1,3 @@
+# v2.0 runtime: Python 3.12.4 / Windows x64.
+# PySide6 includes QtWebEngine through its matching Addons dependency.
+PySide6==6.10.0

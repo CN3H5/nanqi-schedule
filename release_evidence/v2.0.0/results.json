@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "python": 284,
+  "javascript": 29,
+  "ui": {
+    "main": 17,
+    "v2_forms": 6,
+    "import": 4,
+    "erc_api": 12
+  },
+  "packages": {
+    "onedir": {
+      "selfcheck": true,
+      "doctor": true,
+      "ui": 10
+    },
+    "onefile": {
+      "selfcheck": true,
+      "doctor": true,
+      "ui": 10
+    }
+  },
+  "computer_use": {
+    "main_version": true,
+    "overnight_save_persisted": 120,
+    "compose_open_cancel": true,
+    "real_accounts_used": false,
+    "widget_enumeration": false
+  },
+  "source_archive_verified": true
+}
